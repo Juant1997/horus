@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Layout Full Width + Sticky Footer (BS5)</title>
+  <title><<oOo>></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap 5 CSS (CDN) -->
@@ -12,6 +12,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous"
   />
+  <link rel="stylesheet" href="style.css">
 
   <style>
     html, body { height: 100%; }
@@ -60,30 +61,30 @@
       </div>
     </div>
   </nav>
-
-  <div class="container border rounded-1 my-2">
-    <div class="row">
-      <div class="col-12 my-3">
-        <h2 class="h5">Bienvenido a mi sitio web</h2>
-        <p>Este es un ejemplo de un layout con Bootstrap 5 que utiliza un footer pegajoso y un diseño a todo lo ancho.</p>
-      </div>
+ <div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-auto border rounded-1 border-primary p-5 ">
+      <h5 class="text-justify m-0">
+        Todos hemos estado ahí. Esa voz que susurra:"¿Y si no eres lo suficientemente bueno?"cuando intentas algo nuevo.La sensación de que un error no es solo un tropiezo, sino una etiqueta pegada a tu frente: <strong>FRACASADO</strong>. Pasas días, años, en la misma rutina,no por falta de sueños, sino por exceso de miedo.Miedo a que ese primer paso confirme tu peor sospecha:que tal vez, después de todo, tus capacidades tienen un límite fijo e inamovible.
+      </h5>
     </div>
-
   </div>
+</div>
+<hr>
 
   <!-- MAIN crece para empujar el footer (full width) -->
   <main class="container-fluid flex-grow-1">
     <div class="row g-0">
       <!-- Columna principal a todo lo ancho en móvil, 8/12 en md+ -->
-      <section class="col-12 col-md-8 p-3">
-        <div class="bg-light border rounded-1 p-4 h-100">
-          <h2 class="h5">Contenido principal</h2>
-          <p>Tu contenido aquí. Esta columna usa todo el ancho en móvil y 8/12 en pantallas medianas.</p>
+      <section class="col-12 ">
+        <div class="bg-light p-4 h-100">
+          <h3 class="text-center">¿y si todo este sufrimiento mental proviene de un solo error de origen? </h3>
+          <p class="text-justify">Sin que nos demos cuenta, muchos vivimos bajo una ley no escrita: creemos que la inteligencia, el talento o la personalidad son como la estatura. Algo con lo que naces y que no puede cambiar.Ahí está la trampa. Tu mente, en modo fijo, no está diseñada para arriesgar o aprender. Está diseñada para proteger. Para esconder las deficiencias, para rodearse de quienes nos adulan, para elegir solo los caminos trillados donde el éxito está garantizado. Es agotador. Es la razón por la que, tras un revés, solo quieres "quedarte en la cama" o "comer chocolate". No es flojera. Es el mecanismo de defensa de una identidad que cree ser frágil. </p>
         </div>
       </section>
 
       <!-- Sidebar -->
-      <aside class="col-12 col-md-4 p-3">
+      <aside class="col-12 ">
         <div class="bg-white border rounded-1 p-3 h-100">
           <h3 class="h6">Barra lateral</h3>
           <p>Widgets, enlaces, etc.</p>
